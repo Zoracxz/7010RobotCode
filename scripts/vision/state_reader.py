@@ -10,7 +10,8 @@ def init():
     Assumes the camera device is at /dev/video4.
     """
     global cap
-    cap = cv2.VideoCapture('/dev/video4')
+    # cap = cv2.VideoCapture('/dev/video4')
+    cap = cv2.VideoCapture(0)
     print("Video initialized {0}x{1}, {2} fps".format(int(cap.get(3)), int(cap.get(4)), int(cap.get(5))))
 
 

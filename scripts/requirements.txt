@@ -1,0 +1,4 @@
+pip==19.0.3
+opencv-python==4.5.5.64
+pyttsx3
+numpy==1.23.5

@@ -16,8 +16,8 @@ pip install -r requirements.txt
 ```
 
 ```
-用管理员权限执行下面操作
-cd "D:\UM\WQF7010 ROBOTICS AND AUTOMATION\Project\show_me_tic_tac_toe" #这里填本地项目的实际路径
+
+cd "D:\UM\WQF7010 ROBOTICS AND AUTOMATION\Project\show_me_tic_tac_toe" 
 
 python -m venv venv
 
